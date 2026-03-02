@@ -1,0 +1,14 @@
+[package]
+name = "spam"
+version = "0.0.1"
+edition = "2024"
+description = "Safe PAM"
+license = "Apache-2.0"
+authors = ["Matilde Morrone <contact@matilde.pet>"]
+repository = "https://github.com/puppymati/spam"
+readme = "README.md"
+documentation = "https://docs.rs/spam"
+include = ["src/**/*.rs", "README.md", "LICENSE"]
+
+
+[dependencies]
