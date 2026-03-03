@@ -37,7 +37,7 @@
               pkg-config
               clang
               pam
-              rust-bindgen
+              libclang
               (rust-bin.stable.latest.default.override {
                 extensions = [
                   "rust-src"
@@ -45,6 +45,8 @@
                 ];
               })
             ];
+
+            LIBCLANG_PATH = "${pkgs.libclang.lib}/lib";
           };
         }
       );
